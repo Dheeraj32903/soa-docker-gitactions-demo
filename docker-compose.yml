@@ -25,7 +25,7 @@ services:
       - springboot-postgres-net
 
   frontend:
-    image: dheeraj220579/docker-git-actions-frontend:latest
+    image: dheeraj200579/docker-git-actions-frontend:latest
     container_name: docker-react
     ports:
       - "3000:80"
